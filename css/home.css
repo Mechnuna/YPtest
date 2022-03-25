@@ -1,0 +1,165 @@
+@font-face { 
+    font-family: "GilroyThin";
+	src: url("../fonts/GilroyThin.ttf") format("truetype");
+	font-style: normal;
+}
+
+body {
+	width: 375px;
+	height: 100vh;
+	margin: 0;
+	background-color: #EAF0FF;
+	font-family: "GilroyThin";
+	margin-left: calc((100% - 375px)/2);
+}
+
+p, h1, h2, h3 {
+	margin: 0;
+	color: #EAF0FF;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.main-window{
+    overflow: hidden;
+	/* hiding scrollbar for firefox */
+	scrollbar-width: none;
+}
+
+/* hiding scrollbar for chrome, opera, etc */
+.main-window::-webkit-scrollbar {
+	display: none;
+}
+
+main {
+	width: 375px;
+	height: 600px;
+	padding: 0 30px;
+	background-color: #091227;
+	overflow: auto;
+}
+
+.nav {
+
+	margin: 30px 0px 30px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.covers {
+	margin-top: 24px;
+}
+
+.cover-line {
+	display: flex;
+    justify-content: space-between;
+}
+
+.cover-song {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.song-title {
+	margin-top: 11px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover-song-name {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #EAF0FF;
+}
+
+.cover-song-author {
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+	color: rgba(165, 192, 255, 0.7);
+}
+
+.shadow {
+	position: absolute;
+	width: 123.27px;
+	height: 123.14px;
+
+	filter: blur(45.8413px);
+}
+
+.cover-shadow {
+	position: absolute;
+	width: 92.43px;
+	height: 202.61px;
+
+	background: #5CE9BD;
+}
+
+.turntable {
+	display: flex;
+	height: 117px;
+	background-color: #091227;
+	bottom: 0;
+}
+
+.now-playing-switch {
+	display: flex;
+	padding-right: 28px;
+	justify-content: space-between;
+}
+
+.now-playing-author {
+	font-family: "GilroyThin";
+	font-weight: 400;
+	font-size: 10.0131px;
+	line-height: 12px;
+	color: rgba(165, 192, 255, 0.7);
+}
+
+.now-playing-title{
+	display: flex;
+    flex-direction: column;
+	align-items: flex-start;
+}
+
+.now-playing-name {
+	font-family: "GilroyThin";
+	font-weight: 500;
+	font-size: 18.0236px;
+	line-height: 21px;
+	color: #EAF0FF;
+}
+
+.now-playing-button {
+	display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.now-playing-left {
+	display: flex;
+    width: 185px;
+    justify-content: space-between;
+    align-items: center;
+}

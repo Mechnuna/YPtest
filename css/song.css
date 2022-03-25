@@ -1,0 +1,99 @@
+.main-song {
+	height: 717px;
+	width: 375px;
+	padding: 0 30px;
+	background-color: #091227;
+	overflow: auto;
+	position: fixed;
+    transition: .3s ease-in-out;
+}
+
+.player-hidden {
+	bottom: -100vh;
+} 
+
+.player-showen {
+	bottom: 0vh;
+} 
+
+.nav h1{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.song-cover-name {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: #EAF0FF;
+}
+
+.song-cover-author {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(165, 192, 255, 0.7);
+}
+
+.song-player-cover-img {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-img-block {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover-img-block-title {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover-img-block-off .cover-img-block-title{
+	opacity: 0;
+}
+
+.player-time{
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	color: rgba(165, 192, 255, 0.7);
+}
+
+.player-img {
+	display: flex;
+	justify-content: space-between;
+}
+
+.player-img div {
+	width: 52px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.song-player-button {
+	margin-top: 35px;
+}
+
+.play-controller{
+	display: flex;
+	margin-top: 20px;
+	width: 171px;
+	align-items: center;
+    justify-content: space-around;
+}
+
+.player-switch {
+	display: flex;
+	margin-top: 35px;
+    flex-direction: column;
+    align-items: center;
+}
