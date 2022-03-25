@@ -83,6 +83,13 @@ nav {
     align-items: center;
 }
 
+.cover-song-title {
+	display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
 .cover-song-name {
 	font-weight: 500;
 	font-size: 14px;

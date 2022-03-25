@@ -6,6 +6,7 @@
 	overflow: auto;
 	position: fixed;
     transition: .3s ease-in-out;
+	margin-bottom: calc(100vh - 717px);
 }
 
 .player-hidden {
